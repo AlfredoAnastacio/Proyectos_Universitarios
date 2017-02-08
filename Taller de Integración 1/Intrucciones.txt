@@ -1,0 +1,48 @@
+Intrucciones para utilizar el sistema:
+
+Requisitos para poder ejecutar el sistema en el equipo a usar:
+Un servidor (Mysql en este caso nos apoyamos de Xampp, es un entorno gráfico).
+El JDK puede variar segun el equipo, si tiene la version 8 y no funciona, instale el 7, o viceversa.
+
+1.- Introduzca el CD en su equipo.
+2.- Al abrirse la carpeta de contenidos podrás observar los archivos con los que cuenta 
+para que el sistema pueda ejecutarse:
+	-Una Base de datos.
+	-Documentación para el usuario. incluyendo el manual de usuario por cualquier duda.
+	-Un archivo ejecutable .exe
+	-Un Archivo Instrucciones.txt para su instalación y ejecución del sistema.
+
+3.-Como primer paso debes instalar un servidor local (en este caso lo será así, si dispone mejor 
+de un servidor vía web, quedará en su criterio) en la cual se alojara toda la 
+información respecto al sistema.
+
+4.-En este caso optamos por Xammp como entorno gráfico para llevar un control de nuestra base de datos,
+un servidor local para un manejo visual de la información que se va guardando conforme se usa el sistema. 
+Para descargar Xammp nos dirigimos a la siguiente dirección https://www.apachefriends.org/es/index.html
+y damos en descargar sobre el icono de Windows, al finalizar, damos doble click en el archivo .exe y seguir los pasos
+del instalador hasta que finalize.
+
+5.-Ya finalizado el proceso de instalación , buscamos dentro de nuestros programas el que se llame XAMMP y 
+le damos click,hay tres opciones, damos click en XAMMP CONTROL PANEL, se nos abrira un panel de control en el cual
+tenemos las opciones de Apache, Mysql,FileZilla, Mercury y Tomcat. solo vamos a utilizar el apache (que será nuestro
+entorno grafico en ocasiones) y mysql (es nuestro servidor local); damos click en INICIAR tanto apache como mysql
+hasta que se pongan de color verde, esto nos quiere decir que nuestro servidor ya se esta ejecutando en nuestro equipo.
+
+6.-Ahora vamos a proceder a instalar nuestra base de datos para el sistema,estando en el panel de control de 
+XAMMP, damos click en Admin, se nos abrirar el explorador hacia una paguina en la siguiente direccion: 
+http://localhost/phpmyadmin/index.php , algo como esto..damos click en la pestaña de Base de datos, al
+aparecer una nueva ventana crearemos una nueva base de datos llamada "sistemataller" (sin comillas),damos click
+en Crear y así se hemos creado la base de datos en nuestro servidor. Recargamos la pagina.
+
+7.- Ya creada la base de datos,ya creada, en el panel izquierdo la podemos observar.le damos click y nuestra ventana cambiara por 
+otro información,en las pestañas podemos ver una opción que dice: SQL, le damos click y nos aparecerá una ventanita para poder escibir,
+ahora abrimos con el block de notas el archivo que esta en el disco llamado Sistemataller.sql, y copiamos todo lo que este dentro de el y luego
+pegamos en la ventana del navegador que abrimos ahce unos momentos....ya hecho esto, le damos click en Continuar,a lo que cargara la base de datos
+y al finalizar refescamos la paguina web, y en el panel izquierdo vemos que la base de datos que creamos ya contiene unas tablas, las cuales son las 
+que conforman el sistema. Ya podemos cerrar el navegador.
+
+8.-Después en la carpeta del disco ejecutamos como Administrador el archivo Taller.exe y se nos abrira el sistema listo para usarse, comenzando en un 
+login para el uso del sistema. en este caso se le proporciona unas credenciales Usuario: Admin Password: admin123
+
+Cualquier duda que se tenga, se puede consultar la documentación parte 7 ANEXO C: Manual de usuario,
+que viene incluida en el CD.
